@@ -4,7 +4,97 @@ Program ini digunakan untuk mengatur antrian pasien di rumah sakit. Pengguna dap
 
 ## Source Code
 <img width="724" height="1172" alt="SC1" src="https://github.com/user-attachments/assets/4ca603a1-40a0-48e1-ba05-d351b060e18e" /> <br/>
-placeholder
+1. Definisi Fungsi menu()
+Fungsi ini bertugas hanya untuk menampilkan pilihan kepada pengguna.
+```
+def menu():
+    print("1. Cek antrian pasien saat ini")
+    print("2. Masukan pasien")
+    print("3. Layanin pasien")
+    print("4. Cek status pasien")
+    print("5. Keluar program")
+```
+Ketika fungsi ini dipanggil, ia akan mencetak daftar pilihan menu ke layar. <br/>
+
+2. Inisialisasi pada Fungsi main()
+```
+def main():
+    pasien = []  # List untuk menyimpan nama pasien yang sedang mengantre
+    done = []    # List untuk menyimpan nama pasien yang sudah selesai dilayani
+    run = True   # Variabel kontrol (flag) agar program terus berjalan
+```
+* pasien: Digunakan sebagai queue utama.
+* done: Digunakan sebagai histori/rekam medis sederhana untuk pasien yang sudah lewat.
+* run: Selama variabel ini True, program tidak akan berhenti.
+
+3. Perulangan Utama (Main Loop)
+```
+while run:
+        menu() # Memanggil tampilan menu
+        inp = int(input("Masukan angka yang ingin dipilih: ")) # Mengambil input pilihan user
+```
+Program masuk ke infinite loop yang hanya akan berhenti jika user memilih menu nomor 5. <br/>
+
+4. Logika Menu 1: Cek Antrean
+```
+if inp == 1:
+            if len(pasien) == 0:
+                print("Antrian masih kosong\n")
+            else:
+                print(pasien,"\n")
+```
+Mengecek panjang list pasien. Jika 0, berarti tidak ada orang. Jika ada, tampilkan isi list tersebut. <br/>
+
+5. Logika Menu 2: Masukkan Pasien
+```
+elif inp == 2:
+            try:
+                banyak = int(input("Masukan banyak pasien: ")) # Input jumlah pasien baru
+            except ValueError:
+                print("Tolong masukan angka") # Menangani jika user input huruf, bukan angka
+                continue
+            for i in range(banyak):
+                nama = input("Masukan nama pasien: ")
+                pasien.append(nama) # Menambahkan nama ke urutan paling belakang list
+            print("Pasien sudah masuk\n")
+```
+Menggunakan try-except untuk mencegah program crash jika salah input. Pasien ditambahkan ke list menggunakan .append(), yang secara otomatis menaruh mereka di posisi paling akhir (belakang antrean). <br/>
+
+6. Logika Menu 3: Layani Pasien
+```
+elif inp == 3:
+            if len(pasien) == 0:
+                print("List masih kosong")
+            else:
+                layani = int(input("Berapa banyak yang sudah dilayani: "))
+                for i in range(layani):
+                    after = pasien.pop(0) # MENGAMBIL elemen index 0 (paling depan)
+                    done.append(after)    # Memindahkan pasien tersebut ke list 'done'
+                print("Sudah di update\n")
+```
+Fungsi .pop(0) adalah kunci dari antrean. Ia mengambil pasien yang paling lama menunggu (indeks 0) dan menghapusnya dari list pasien. Pasien tersebut kemudian dipindahkan ke list done. <br/>
+
+7. Logika Menu 4 & 5: Status dan Keluar
+```
+elif inp == 4:
+            # Menampilkan kedua list untuk perbandingan
+            print(f"Pasien yang masih di antrian: {pasien}")
+            print(f"Pasien yang sudah dilayani: {done}\n")
+        
+        elif inp == 5:
+            print("Program selesai\n")
+            run = False # Mengubah flag menjadi False untuk menghentikan 'while run'
+```
+Menu ke 4 memberikan laporan lengkap kepada admin. Kamu bisa melihat siapa saja yang masih menunggu di list pasien dan siapa saja yang sudah selesai di list done. Ini berguna untuk sinkronisasi data dan menu 5 untuk menutup program dengan mengubah variabel run = False, sehingga loop berhenti <br/>
+
+8. Penanganan Input Tidak Valid & Eksekusi Program
+```
+else:
+            print("Pilihan tidak valid\n") # Jika user input angka selain 1-5
+
+main() # Memanggil fungsi main agar program berjalan pertama kali
+```
+Baris else ini menangkap semua angka yang tidak ada di menu (misalnya user input angka 7, 0, atau 99). dan fungi main() untuk mengeksekusi program
 
 ### Output Program
 Menu pada saat pertama kali program di jalankan
