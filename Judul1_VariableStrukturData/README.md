@@ -131,4 +131,4 @@ Menutup program<br/>
 
 
 ### Link Youtube Penjelasan
-Video penjelesan juga tersedia di [Youtube](https://youtube.com)
+Video penjelesan juga tersedia di [Youtube](https://youtu.be/ANojfe-HN8o)
