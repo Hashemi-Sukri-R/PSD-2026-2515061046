@@ -98,28 +98,36 @@ Baris else ini menangkap semua angka yang tidak ada di menu (misalnya user input
 
 ### Output Program
 Menu pada saat pertama kali program di jalankan
-<img width="319" height="107" alt="Idle" src="https://github.com/user-attachments/assets/63020b19-01e9-4170-b0f6-527788cb516e" /> <br/>
+<img width="319" height="107" alt="Idle" src="https://github.com/user-attachments/assets/63020b19-01e9-4170-b0f6-527788cb516e" /> 
+Pengguna dapat memilih satu dari kelima pilihan yang sudah di sediakan<br/>
 
 Menu 1 ketika masih kosong
-<img width="283" height="126" alt="empty1" src="https://github.com/user-attachments/assets/aa398347-b775-46af-adef-63e25ef2ffc3" /> <br/>
+<img width="283" height="126" alt="empty1" src="https://github.com/user-attachments/assets/aa398347-b775-46af-adef-63e25ef2ffc3" /> 
+Yang akan terjadi jika memasukan pilihan satu namun belum ada elemen di dalamnya<br/>
 
 Menu 2
-<img width="287" height="223" alt="input2" src="https://github.com/user-attachments/assets/8dc0e01f-44e2-4098-a780-56c3af572ff7" /> <br/>
+<img width="287" height="223" alt="input2" src="https://github.com/user-attachments/assets/8dc0e01f-44e2-4098-a780-56c3af572ff7" /> 
+Pengguna akan diminta untuk memasukan jumlah pasien yang akan di input ke sistem, pada contoh berikut saya memasukan 5 pasien. lalu pengguna akan diminta memasukan nama pasien  <br/>
 
 Menu 1 ketika sudah di masukan
-<img width="327" height="134" alt="item1" src="https://github.com/user-attachments/assets/d04d52a3-5c64-4ea3-a542-87b3db7e8d01" /> <br/>
+<img width="327" height="134" alt="item1" src="https://github.com/user-attachments/assets/d04d52a3-5c64-4ea3-a542-87b3db7e8d01" /> 
+Tampilan ketika menu 2 sudah di eksekusi<br/>
 
 Menu 3
-<img width="283" height="142" alt="input3" src="https://github.com/user-attachments/assets/12bf97ee-b2af-4dfd-8239-11653e5ec849" /> <br/>
+<img width="283" height="142" alt="input3" src="https://github.com/user-attachments/assets/12bf97ee-b2af-4dfd-8239-11653e5ec849" /> 
+Pengguna akan diminta memasukan angka, angka tersebut akan menentukan berapa banyak pasien yang sudah dilayani. didata dari kiri ke kanan<br/>
 
 Menu 1 ketika beberapa pasien sudah dilayani
 <img width="273" height="136" alt="current1" src="https://github.com/user-attachments/assets/6ba9c25f-ad19-472e-b0a5-953869515a9b" /> <br/>
+Tampilan ketika menu 3 sudah di eksekusi
 
 Menu 4
-<img width="424" height="161" alt="input4" src="https://github.com/user-attachments/assets/03494e02-d7f7-42da-8199-8eb3eee08dcc" /> <br/>
+<img width="424" height="161" alt="input4" src="https://github.com/user-attachments/assets/03494e02-d7f7-42da-8199-8eb3eee08dcc" /> 
+Menanmpilkan status pasien. list akan dibagi 2, satu pasien yang masih mengantri dan yang sudah dilayani<br/>
 
 Menu 5
-<img width="265" height="122" alt="input5" src="https://github.com/user-attachments/assets/0c890310-5705-476f-bc17-0437757a4440" /> <br/>
+<img width="265" height="122" alt="input5" src="https://github.com/user-attachments/assets/0c890310-5705-476f-bc17-0437757a4440" /> 
+Menutup program<br/>
 
 
 ### Link Youtube Penjelasan
