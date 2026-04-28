@@ -10,4 +10,4 @@ placeholder
 placeholder
 
 ### Link Youtube Penjelasan
-Video penjelesan juga tersedia di [Youtube](youtube.com)
+Video penjelesan juga tersedia di [Youtube](https://youtube.com)
