@@ -55,4 +55,4 @@ Menampilkan hasil yang belum di urutkan <br/><br/>
 Menampilkan hasil yang sudah di ururtkan <br/><br/>
 
 ### Link Video Penjelasan
-Video penjelesan juga tersedia di [Youtube](https://youtu.be/RTQOh2pYqBY)
+Video penjelesan juga tersedia di [Youtube](https://youtu.be/kEQRneZsOSg)
