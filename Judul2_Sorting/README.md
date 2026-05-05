@@ -1,78 +1,45 @@
 # Implementasi Sistem Sorting Botol Bumbu Berdasarkan Tingginya
 
-Program ini digunakan untuk mengurutkan botol bumbu berdasarkan tinggi botolnya menggunakan Insertion Sort. Pengguna dapat memasukan berapa banyak botol yang ingin di sorting dan berapa tinggi dari masing masing botol.
+Program ini digunakan untuk mengurutkan botol bumbu berdasarkan tinggi botolnya menggunakan Insertion Sort   Pengguna dapat memasukan berapa banyak botol yang ingin di sorting dan berapa tinggi dari masing masing botol
 
 ## Source Code
-<img width="717" height="811" alt="Source" src="https://github.com/user-attachments/assets/efcd3e4f-fca6-4a67-9aeb-afa5df9c87e7" /> <br/>
-1. Fungsi insertion_sort(arr, n). <br/>
-Ini adalah cara kerja dari algoritma pengurutannya.
-
-```
-def insertion_sort(arr, n):
-      for i in range(1, n):
-```
-Kita mulai perulangan dari botol kedua (indeks 1) sampai botol terakhir. Kenapa? Karena botol pertama (indeks 0) dianggap sudah "terurut" sendirian di awal.
-
-```
-temp = arr[i]
-        j = i - 1
-```
-temp: Kita mengambil botol yang sedang diperiksa dan menyimpannya sementara di variabel temp.
-j: Kita menyiapkan variabel untuk mengecek botol-botol di sebelah kirinya.
-
-```
-while j >= 0 and arr[j] > temp:
-            arr[j + 1] = arr[j]
-            j -= 1
-```
-Selama botol di sebelah kiri arr[j] lebih tinggi daripada botol di tangan kita (temp), maka botol yang lebih tinggi itu digeser ke kanan arr[j+1] = arr[j]. Kita terus bergerak ke kiri (j -= 1) untuk mencari posisi yang pas.
-
-```
-arr[j + 1] = temp
-```
-Setelah menemukan tempat di mana botol di sebelah kiri sudah tidak lebih tinggi lagi (atau sudah sampai ujung paling kiri), kita masukkan botol yang ada di tangan (temp) ke posisi tersebut<br/><br/>
-
-2. Membuat Fungsi main()
-```
-def main():
-    try:
-        n = int(input("Masukkan jumlah botol bumbu: "))
-    except ValueError:
-        print("Input tidak valid! Masukkan angka untuk jumlah elemen.")
-        return
-```
-Program meminta jumlah botol. Jika kamu memasukkan huruf (bukan angka), blok except akan menangkap kesalahan tersebut dan menghentikan program
-
-```
-arr = []
-    for i in range(n):
-        while True:
-            try:
-                nilai = int(input(f"Tinggi botol ke-{i+1}: "))
-                arr.append(nilai)
-                break
-            except ValueError:
-                print("Input tidak valid, silakan masukkan angka!")
-```
-membuat array kosong yang akan di isi lewat perluangan while. didalam loop nya user akan diminta memasukan tinggi botol, jika input tinggi botol valid, ia masuk ke list arr dan break akan menghentikan perulangan input untuk botol tersebut, lanjut ke botol berikutnya.<br/><br/>
-
-3. Eksekusi dan Output
-```
-print(f"Urutan awal rak: {arr}")
-    insertion_sort(arr, n) # Memanggil fungsi sortir yang kita buat sebelumnya
-```
-Menampilkan urutan botol sebelum di ururtkan, lalu menjalankan prosedur pengurutan.
-
-```
-print("Urutan rak setelah Insertion Sort (dari terpendek):", end=" ")
-    for i in range(n):
-        print(arr[i], end=" ")
-
-main()
-```
-Mencetak "Urutan rak setelah Insertion Sort". Penggunaan end=" " berfungsi agar hasil cetakan memanjang ke samping, bukan membuat baris baru setiap kali mencetak angka.
-for loop untuk mencetak angka dari list yang sudah diurutkan
-main() di baris terakhir adalah perintah untuk memulai seluruh rangkaian proses di atas
+<img width="717" height="811" alt="Source" src="https://github.com/user-attachments/assets/efcd3e4f-fca6-4a67-9aeb-afa5df9c87e7"/> <br/>
+Berikut penjelasan dari kode diatas baris per baris  <br/><br/>
+Baris 1: Mendefinisikan fungsi insertion_sort yang menerima input list arr dan jumlahnya n <br/>
+Baris 2: <br/>
+Baris 3: Memulai perulangan dari elemen kedua (indeks 1) hingga elemen terakhir <br/>
+Baris 4: Menyimpan nilai elemen yang sedang diproses ke dalam variabel sementara temp <br/>
+Baris 5: Menetapkan variabel j sebagai indeks elemen tepat di sebelah kiri i <br/>
+Baris 6: Memulai perulangan while selama j belum habis dan elemen di kiri lebih besar dari temp <br/>
+Baris 7: Menggeser elemen yang lebih besar tersebut ke posisi sebelah kanan <br/>
+Baris 8: Mengurangi nilai j agar pengecekan berlanjut ke elemen di sebelah kirinya lagi <br/>
+Baris 9: Menempatkan nilai temp ke posisi yang kosong setelah pergeseran selesai <br/>
+Baris 10: <br/>
+Baris 11: Mendefinisikan fungsi utama bernama main <br/>
+Baris 12: Memulai blok try untuk menangani kesalahan (error) saat penginputan data <br/>
+Baris 13: Mengambil input jumlah botol dari pengguna dan mengubahnya menjadi bilangan bulat (integer) <br/>
+Baris 14: Menentukan tindakan jika terjadi kesalahan ValueError (misal input bukan angka) <br/>
+Baris 15: Mencetak pesan peringatan bahwa input jumlah botol tidak valid <br/>
+Baris 16: Menghentikan jalannya fungsi main karena terjadi kesalahan input <br/>
+Baris 17: <br/>
+Baris 18: Membuat sebuah list kosong bernama arr untuk menyimpan data tinggi botol <br/>
+Baris 19: Mencetak kalimat instruksi pengisian tinggi botol kepada pengguna <br/>
+Baris 20: Memulai perulangan sebanyak n kali untuk mengambil data setiap botol <br/>
+Baris 21: Memulai perulangan while True agar program terus meminta input jika terjadi kesalahan ketik <br/>
+Baris 22: Memulai blok try di dalam perulangan untuk mengecek validitas input tinggi tiap botol <br/>
+Baris 23: Mengambil input tinggi botol spesifik (misal: botol ke-1) dan mengubahnya ke integer <br/>
+Baris 24: Memasukkan nilai tinggi yang valid tersebut ke dalam list arr <br/>
+Baris 25: Menghentikan perulangan while True karena input satu botol sudah berhasil diterima <br/>
+Baris 26: Menentukan tindakan jika input tinggi botol bukan berupa angka <br/>
+Baris 27: Mencetak pesan peringatan agar pengguna memasukkan angka yang benar <br/>
+Baris 28:   <br/>
+Baris 29: Mencetak isi list arr dalam kondisi awal (sebelum diurutkan) <br/>
+Baris 30: Memanggil fungsi insertion_sort untuk memproses pengurutan list arr <br/>
+Baris 31: Mencetak kalimat pembuka untuk menampilkan hasil akhir <br/>
+Baris 32: Memulai perulangan untuk mengakses setiap elemen di dalam list yang sudah terurut <br/>
+Baris 33: Mencetak setiap elemen list satu per satu secara menyamping <br/>
+Baris 34: <br/>
+Baris 35: Memanggil fungsi main() untuk menjalankan seluruh program dari awal <br/>
 
 ### Output Program
 <img width="238" height="18" alt="input1" src="https://github.com/user-attachments/assets/35fbfb7a-b1c2-4d27-9ece-01fedb4a1232" />
