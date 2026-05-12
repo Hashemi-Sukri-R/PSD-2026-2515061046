@@ -1,8 +1,9 @@
-# Impelementasi Sistem Cek Barang/Stock di Toko
-
+# Impelementasi Sistem Cek Barang/Stock di Toko Menggunakan Sequencial Searching
+Sistem pencarian data barang dengan memeriksa daftar stock secara berurutan dari awal hingga barang ditemukan. Metode ini sederhana, mudah diterapkan, dan cocok digunakan pada toko dengan jumlah data barang yang tidak terlalu banyak.
 
 ## Source Code
 <img width="948" height="621" alt="source" src="https://github.com/user-attachments/assets/93124ab2-f31b-408e-8de2-d3d3b2984b82" /><br/>
+Berikut merupakan penjelasan singkat mengenai code program dalam baris perbaris: <br/>
 Baris 1: Membuat fungsi untuk melakukan sequential search berdasarkan data, jumlah data, dan target yang dicari. <br/>
 Baris 2: Menentukan indeks awal pencarian dari posisi pertama.<br/>
 Baris 3: Membuat variabel untuk menghitung jumlah kemunculan target.<br/>
