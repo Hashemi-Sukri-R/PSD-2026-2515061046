@@ -24,9 +24,9 @@ Baris 22: Menjalankan bagian lain jika produk tidak ditemukan.<br/>
 Baris 23: Menampilkan pesan bahwa produk tidak tersedia di toko.<br/>
 Baris 25: Menjalankan fungsi utama agar program dieksekusi.<br/>
 ## Output Code
-<img width="823" height="34" alt="output1" src="https://github.com/user-attachments/assets/c8fab7e3-2fc5-4791-afac-bdada307fe98" />
+<img width="823" height="34" alt="output1" src="https://github.com/user-attachments/assets/c8fab7e3-2fc5-4791-afac-bdada307fe98" /><br/>
 Menu ketika program baru dijalankan <br/>
-<img width="364" height="39" alt="output2" src="https://github.com/user-attachments/assets/e5c8b758-17f3-42fa-ad83-f9d60ddda6d7" />
+<img width="364" height="39" alt="output2" src="https://github.com/user-attachments/assets/e5c8b758-17f3-42fa-ad83-f9d60ddda6d7" /><br/>
 Ketika user men-input nama sebuah produk maka sistem akan menunjukan apakah produk tersebut ditemukan dan berapa jumlahnya <br/>
 
 ## Link Video Penjelasan
