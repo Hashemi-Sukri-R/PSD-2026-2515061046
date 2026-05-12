@@ -30,4 +30,6 @@ Menu ketika program baru dijalankan <br/>
 Ketika user men-input nama sebuah produk maka sistem akan menunjukan apakah produk tersebut ditemukan dan berapa jumlahnya <br/>
 
 ## Link Video Penjelasan
-Video penjelasan juga tersedia di Youtube
+Video penjelasan juga tersedia di [Youtube](https://youtu.be/IyuDphAh5XA)
+
+## Implementasi Rumus dari Coding Binary Search
