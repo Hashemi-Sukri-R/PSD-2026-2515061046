@@ -33,3 +33,4 @@ Ketika user men-input nama sebuah produk maka sistem akan menunjukan apakah prod
 Video penjelasan juga tersedia di [Youtube](https://youtu.be/IyuDphAh5XA)
 
 ## Implementasi Rumus dari Coding Binary Search
+<img width="650" height="800" alt="CamScanner_12-05-2026_21 05" src="https://github.com/user-attachments/assets/313f2357-0340-4bdc-a192-15a7e107002b" />
