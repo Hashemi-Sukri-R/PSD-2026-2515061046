@@ -77,5 +77,27 @@ Baris 96 : Jika pilihan menu tidak sesuai.<br/>
 Baris 97 : Menampilkan pesan pilihan tidak valid.<br/>
 Baris 100 : Menjalankan function utama program.<br/>
 ## Output Code
+Ketika program baru dijalankan<br/>
+<img width="229" height="129" alt="Idle" src="https://github.com/user-attachments/assets/19e8e2bd-edd3-4be4-8f56-e6099248f064" /><br/><br/>
+
+User memasukan pilihan 1 dan menarik nomor nasabah<br/>
+<img width="269" height="161" alt="inp1a" src="https://github.com/user-attachments/assets/d2ffe58d-2fc1-4220-b111-24d9677d3691" />
+<img width="260" height="154" alt="inp1b" src="https://github.com/user-attachments/assets/20cdafc6-335d-4876-a6ea-91eb7dcac4fb" />
+<img width="257" height="155" alt="inp1c" src="https://github.com/user-attachments/assets/4109883f-4205-4a16-b6b1-a0161bc523df" />
+<img width="265" height="168" alt="inp1d" src="https://github.com/user-attachments/assets/3368d4ce-b0cb-4d79-a885-55bc0344c67f" />
+<img width="251" height="157" alt="inp1e" src="https://github.com/user-attachments/assets/1a00020b-5c37-4019-9bd0-ced7afc32449" /> <br/>
+
+User memasukan pilihan 2 dan memanggil nasabah<br/>
+<img width="349" height="141" alt="inp2" src="https://github.com/user-attachments/assets/4cef5084-1d51-4358-8760-24b7d04024e5" /> <br/>
+
+User memasukan pilihan 3 dan melihat antrian selanjutnya <br/>
+<img width="212" height="135" alt="inp3" src="https://github.com/user-attachments/assets/5966ad97-5420-4c26-8fe4-7b339b6363da" /> <br/>
+
+User memasukan pilihan 4 dan menunjukan seluruh antrian <br/>
+<img width="235" height="207" alt="inp4" src="https://github.com/user-attachments/assets/ea7a2dcc-dda4-4eb4-ba3f-021980e5ed50" /> <br/>
+
+User memasukan pilihan 5, menyelesaikan semua antrian dan menghentikan sistem <br/>
+<img width="343" height="201" alt="inp5" src="https://github.com/user-attachments/assets/98c8a6bf-9b94-40c1-a412-824ce0781562" /> <br/>
 
 ## Link Video Penjelasan
+Video penjelasan juga tersedia di [Youtube](https://youtu.be/q0OI1WNClck)
