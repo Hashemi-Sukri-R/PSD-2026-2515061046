@@ -1,5 +1,5 @@
 # Implementasi Antrian Customer Service Bank Menggunakan QueueLinkedList
-
+Program ini menggunakan struktur data QueueLinkedList untuk mensimulasikan antrean Customer Service bank dengan konsep FIFO (First In First Out). Nasabah yang datang lebih dulu akan dipanggil lebih dulu. Program menyediakan fitur mengambil antrean, memanggil nasabah, melihat antrean depan, dan menampilkan seluruh antrean secara dinamis menggunakan linked list.
 ## Source Code
 <img width="738" height="2046" alt="Source" src="https://github.com/user-attachments/assets/5b495d78-62dc-4bbb-9250-63a2409cbf33" /><br/>
 Berikut penjelasan singkat baris perbaris: <br/><br/>
