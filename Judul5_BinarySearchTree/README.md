@@ -2,7 +2,7 @@
 Program sederhana yang dibuat untuk menyimpan nilai mahasiswa. Program memiliki fitur untuk menambahkan, mencari, dan menampilkan nilai siswa secara terurut. Selain itu, program juga dapat menentukan nilai tertinggi, nilai terendah, dan total seluruh nilai dengan proses pencarian yang lebih cepat dan efisien.
 
 ## Source Code
-<img width="778" height="2350" alt="code" src="https://github.com/user-attachments/assets/87fe2f8f-d34b-4501-9e22-c90c36976a31" /> <br/>
+<img width="778" height="2350" alt="code" src="https://github.com/user-attachments/assets/6ad2b906-84dc-47b3-a045-14f986dfc14f" /> <br/>
 Berikut penjelasan singkat kode secara baris perbaris: <br/>
 Baris 1: Membuat class Node sebagai tempat penyimpanan data pada BST.<br/>
 Baris 2: Membuat constructor untuk class Node.<br/>
@@ -107,6 +107,36 @@ Baris 114: Mengecek apakah file dijalankan langsung.<br/>
 Baris 115: Menjalankan fungsi main().<br/>
 
 ## Output Code
+Menu yang muncul ketika program dijalankan <br/>
+<img width="149" height="155" alt="idle" src="https://github.com/user-attachments/assets/a689e850-42f8-43c4-ba6d-568bbd0638ee" /><br/>
+
+Ketika pengguna memasukan pilihan 1 maka, program akan meminta nilai yang ingin di input. Di sini saya memasukan nilai sebanyak 7 kali. <br/>
+<img width="227" height="191" alt="out1a" src="https://github.com/user-attachments/assets/c94625f1-4e6e-40c4-9f07-0a228fa07400" />
+<img width="216" height="194" alt="out1b" src="https://github.com/user-attachments/assets/68a26cbc-f0a9-4534-82d5-2c97e9534802" />
+<img width="213" height="189" alt="out1c" src="https://github.com/user-attachments/assets/16c1713a-baf9-4399-9105-13f554e4d890" />
+<img width="219" height="198" alt="out1d" src="https://github.com/user-attachments/assets/6001aa83-2179-4932-928e-6d4965cddf9f" />
+<img width="215" height="195" alt="out1e" src="https://github.com/user-attachments/assets/0eed6a66-1bda-4909-90a8-0fec01e4fac8" />
+<img width="215" height="190" alt="out1f" src="https://github.com/user-attachments/assets/b431771b-4383-486d-a40c-c0b38c135b89" />
+<img width="207" height="190" alt="out1g" src="https://github.com/user-attachments/assets/ff47e440-dc9f-423a-87fe-ac13455fd173" /> <br/>
+
+Ketika pengguna memasukan pilihan 2 maka, program akan meminta nilai yang ingin. Di cari di sini saya mencari nilai 43. <br/>
+<img width="161" height="191" alt="out2a" src="https://github.com/user-attachments/assets/9a7c2507-d67a-4cce-8ee7-36335bf101a8" />
+
+Ketika pengguna memasukan pilihan 3 maka, program akan mengurutkan nilai dari yang terkecil hingga terbesar. <br/>
+<img width="224" height="182" alt="out3" src="https://github.com/user-attachments/assets/b85e88ad-a0b1-415a-bbcd-38de733a7364" /><br/>
+
+Ketika pengguna memasukan pilihan 4 maka, program akan mangambil nilai paling rendah di dalam tree. <br/>
+<img width="137" height="177" alt="out4" src="https://github.com/user-attachments/assets/00c619d5-a69d-4f69-8e70-b26427094465" /> <br/>
+
+Ketika pengguna memasukan pilihan 5 maka, program akan mangambil nilai paling tinggi di dalam tree. <br/>
+<img width="138" height="182" alt="out5" src="https://github.com/user-attachments/assets/7bbfbe66-74e2-4eba-b271-d294509a26d4" /> <br/>
+
+Ketika pengguna memasukan pilihan 6 maka, program akan manjumlahkan seluruh nilai di dalam tree. <br/>
+<img width="145" height="179" alt="out6" src="https://github.com/user-attachments/assets/75faa74a-36fd-458b-8bbc-7981ebec4516" /> <br/>
+
+Ketika pengguna memasukan pilihan 7 maka, program akan selesai dan berhenti. <br/>
+<img width="337" height="190" alt="out7" src="https://github.com/user-attachments/assets/9cafe368-aeb3-4679-8ea9-fc61da1def09" /> 
+
 
 ## Link Video Penjelasan
-Video penjelasan juga tersedia di [Youtube](https://youtu.be/)
+Video penjelasan juga tersedia di [Youtube](https://youtu.be/LEux0hg2q9Y)
