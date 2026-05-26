@@ -107,6 +107,7 @@ def main():
             print(f"Jumlah nilai: {bst.sum_nodes(bst.root)}")
         elif pilih == 7:
             print("Program selesai.")
+            break
         else:
             print("Pilihan tidak valid!")
 
