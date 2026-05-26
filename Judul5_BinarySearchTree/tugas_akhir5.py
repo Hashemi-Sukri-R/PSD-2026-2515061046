@@ -5,7 +5,7 @@ class Node:
         self.right = None
 
 
-class BSTDasar:
+class BST:
     def __init__(self):
         self.root = None
 
@@ -63,7 +63,7 @@ class BSTDasar:
 
 
 def main():
-    bst = BSTDasar()
+    bst = BST()
     pilih = 0
     while pilih != 10:
         print("\n=== MENU ===")
