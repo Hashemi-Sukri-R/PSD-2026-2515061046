@@ -93,4 +93,4 @@ Baris 99: Memanggil fungsi utama untuk menjalankan program.<br/>
 ketika program dijalankan, sistem akan menanmpilkan daftar kode pos yang sudah dimasukankan sebelumnya. Setika dicari dengan memasukan kode pos sebagai kuncinya kunci tersebut akan menampilkan wilayah dari kode pos tersebut. Seperti pada output yang ditunjukan, saya memasukan kunci 35125 maka akan keluar wilayah sawah lama. jika memasukan kunci/kode pos yang tidak ada pada daftar maka akan menampilkan "Kode pos tersebut tidak ditemukan"
 
 ## Link Video Penjelasan
-Video penjelasan juga tersedia di [Youtube](youtube.com)
+Video penjelasan juga tersedia di [Youtube](https://youtu.be/8P5l5yW6K0E)
