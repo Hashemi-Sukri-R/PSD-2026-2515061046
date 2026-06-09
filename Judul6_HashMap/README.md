@@ -1,7 +1,7 @@
 # Sistem Pencarian Wilayah Berdasarkan Kode Pos Menggunakan Hash Map
 Sistem Pencarian Wilayah Berdasarkan Kode Pos Menggunakan Hash Map adalah sistem yang memanfaatkan struktur data Hash Map untuk menyimpan dan mencari informasi wilayah berdasarkan kode pos. Dalam sistem ini, kode pos berperan sebagai key dan nama wilayah sebagai value. Ketika pengguna memasukkan kode pos, fungsi hash akan menghitung indeks penyimpanan sehingga data wilayah dapat ditemukan dengan cepat tanpa harus memeriksa seluruh data satu per satu.
 ## Source Code
-<img width="817" height="2017" alt="source" src="https://github.com/user-attachments/assets/dadce9d4-89da-421a-bdd8-2de3d7abba25" />
+<img width="817" height="2017" alt="source" src="https://github.com/user-attachments/assets/dadce9d4-89da-421a-bdd8-2de3d7abba25" /><br/>
 Berikut penjelasan singkat cara kerja sistem secara baris perbaris: <br/>
 Baris 1: Mendefinisikan kelas untuk menyimpan status slot pada Hash Map. <br/>
 Baris 2: Menentukan nilai status slot kosong (EMPTY).<br/>
