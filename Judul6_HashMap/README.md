@@ -89,7 +89,8 @@ Baris 98: Memastikan program dijalankan sebagai program utama.<br/>
 Baris 99: Memanggil fungsi utama untuk menjalankan program.<br/>
 
 ## Output Code
-<img width="292" height="276" alt="output" src="https://github.com/user-attachments/assets/98c0453a-8608-4bc4-84b7-fd3395d7621a" />
+<img width="292" height="276" alt="output" src="https://github.com/user-attachments/assets/98c0453a-8608-4bc4-84b7-fd3395d7621a" /><br/>
+ketika program dijalankan, sistem akan menanmpilkan daftar kode pos yang sudah dimasukankan sebelumnya. Setika dicari dengan memasukan kode pos sebagai kuncinya kunci tersebut akan menampilkan wilayah dari kode pos tersebut. Seperti pada output yang ditunjukan, saya memasukan kunci 35125 maka akan keluar wilayah sawah lama. jika memasukan kunci/kode pos yang tidak ada pada daftar maka akan menampilkan "Kode pos tersebut tidak ditemukan"
 
 ## Link Video Penjelasan
 Video penjelasan juga tersedia di [Youtube](youtube.com)
